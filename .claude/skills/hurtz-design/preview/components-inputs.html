@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Inputs</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;}
+  .field { display: flex; flex-direction: column; gap: 6px;}
+  .lbl { font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--pedra);}
+  .input { padding: 12px 14px; background: #fff; border: 1px solid var(--areia); border-radius: 4px;
+    font-family: Inter, sans-serif; font-size: 14px; color: var(--carvao); outline: none;}
+  .input:focus, .input.focus { border-color: var(--carvao); }
+  .input.error { border-color: var(--func-critico); }
+  .helper { font-size: 11px; color: var(--grafite);}
+  .error-msg { font-size: 11px; color: var(--func-critico); font-weight: 700;}
+  .select { appearance: none; background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' stroke='%23181614' stroke-width='1.5' fill='none'/></svg>") right 14px center no-repeat;}
+</style></head>
+<body>
+  <div class="head"><span class="eyebrow">Componente · Inputs</span><span class="title">Bordas Areia · foco Carvão · sem sombra</span></div>
+  <div class="row">
+    <div class="field">
+      <span class="lbl">Nome do representante</span>
+      <input class="input" value="Klebson Hurtz">
+      <span class="helper">Aparece nos criativos e na proposta.</span>
+    </div>
+    <div class="field">
+      <span class="lbl">CNPJ · em foco</span>
+      <input class="input focus" value="34.221.119/0001-08">
+      <span class="helper">Validação no envio.</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="field">
+      <span class="lbl">Tipo de cota</span>
+      <select class="input select"><option>Imóvel · até R$ 500k</option></select>
+      <span class="helper">3 categorias disponíveis.</span>
+    </div>
+    <div class="field">
+      <span class="lbl">Investimento mensal</span>
+      <input class="input error" value="R$ 0">
+      <span class="error-msg">Valor mínimo R$ 1.500/mês.</span>
+    </div>
+  </div>
+</body></html>

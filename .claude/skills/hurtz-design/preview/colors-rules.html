@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Cor — regras</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px;}
+  .col { background:#fff; border: 1px solid var(--areia); padding: 14px;}
+  .col h4 { margin: 0 0 10px; font-size: 11px; letter-spacing:.14em; text-transform: uppercase; color: var(--brasa); font-weight:700;}
+  .col.no h4 { color: var(--func-critico);}
+  .col li { font-size: 12px; line-height: 1.55; color: var(--grafite); margin-bottom: 6px; list-style: none; padding-left: 14px; position: relative;}
+  .col li::before { content: ""; position: absolute; left:0; top: 8px; width: 6px; height: 2px; background: var(--brasa);}
+  .col.no li::before { background: var(--func-critico);}
+  ul { margin: 0; padding: 0;}
+</style></head>
+<body>
+  <div class="head">
+    <span class="eyebrow">Cor · Regras</span>
+    <span class="title">Máximo 3 cores por material</span>
+  </div>
+  <div class="row2">
+    <div class="col">
+      <h4>Sempre</h4>
+      <ul>
+        <li>Off-white (#F5F2EC) como fundo principal</li>
+        <li>Carvão (#181614) para texto e fundo escuro</li>
+        <li>Brasa Viva (#C06018) para CTA e ênfase</li>
+        <li>Stops da escala definida — sem inventar tons</li>
+      </ul>
+    </div>
+    <div class="col no">
+      <h4>Nunca</h4>
+      <ul>
+        <li>Branco puro #FFFFFF como fundo</li>
+        <li>Preto puro #000000</li>
+        <li>Azul como cor primária da marca</li>
+        <li>Mais de 3 cores em um único material</li>
+        <li>Gradientes, sombras ou brilho decorativo</li>
+      </ul>
+    </div>
+  </div>
+</body></html>

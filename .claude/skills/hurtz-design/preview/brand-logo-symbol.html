@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Logo symbol</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 0; }
+  .row { gap: 0; }
+  .cell {
+    flex: 1;
+    height: 200px;
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 16px;
+  }
+  .cell.light { background: var(--offwhite); border: 1px solid var(--areia); }
+  .cell.dark  { background: var(--carvao); }
+  .cell.brasa { background: var(--brasa); }
+  .sym {
+    height: 76px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .sym img { height: 76px; width: auto; display: block; }
+  .invert img { filter: invert(1); }
+  .tag {
+    font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+    text-align: center;
+  }
+  .light .tag { color: var(--pedra); }
+  .dark .tag, .brasa .tag { color: rgba(245,242,236,.7); }
+</style></head>
+<body>
+<div class="row">
+  <div class="cell light">
+    <div class="sym"><img src="../assets/logo-symbol.png" alt="Hurtz symbol"></div>
+    <div class="tag">Símbolo · fundo claro</div>
+  </div>
+  <div class="cell dark">
+    <div class="sym invert"><img src="../assets/logo-symbol.png" alt="Hurtz symbol invertido"></div>
+    <div class="tag">Símbolo · fundo carvão</div>
+  </div>
+  <div class="cell brasa">
+    <div class="sym invert"><img src="../assets/logo-symbol.png" alt="Hurtz symbol mono"></div>
+    <div class="tag">App icon · fundo brasa</div>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Metric block</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; border: 1px solid var(--areia); background: #fff;}
+  .stat { padding: 18px; border-right: 1px solid var(--areia);}
+  .stat:last-child { border-right: 0;}
+  .lbl { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--pedra); margin-bottom: 8px;}
+  .num { font-size: 32px; font-weight: 700; line-height: 1; letter-spacing: -0.01em; color: var(--carvao); font-variant-numeric: tabular-nums;}
+  .num small { font-size: 14px; color: var(--brasa); margin-left: 2px;}
+  .delta { font-size: 11px; font-weight: 700; margin-top: 8px;}
+  .up { color: #1A7A4A;}
+  .down { color: #B52A2A;}
+</style></head>
+<body>
+  <div class="head"><span class="eyebrow">Componente · Bloco de métrica</span><span class="title">Dashboard · CRM · proposta</span></div>
+  <div class="grid">
+    <div class="stat">
+      <div class="lbl">Leads · 30 dias</div>
+      <div class="num">1.482</div>
+      <div class="delta up">▲ 22% vs. mês anterior</div>
+    </div>
+    <div class="stat">
+      <div class="lbl">Qualificados</div>
+      <div class="num">418</div>
+      <div class="delta up">▲ 14%</div>
+    </div>
+    <div class="stat">
+      <div class="lbl">Vendas fechadas</div>
+      <div class="num">R$ 4,2<small>M</small></div>
+      <div class="delta up">▲ 9%</div>
+    </div>
+  </div>
+</body></html>

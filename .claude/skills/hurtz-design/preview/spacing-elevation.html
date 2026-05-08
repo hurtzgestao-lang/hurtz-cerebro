@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>No shadows</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px;}
+  .cell { padding: 18px; min-height: 110px; display: flex; flex-direction: column; gap: 8px;}
+  .yes { background: #fff; border: 1px solid var(--areia);}
+  .no  { background: #fff; box-shadow: 0 8px 24px rgba(0,0,0,.18); position: relative; opacity: .85;}
+  .no::after { content: "✕"; position: absolute; top: 8px; right: 12px; font-size: 18px; font-weight: 700; color: var(--func-critico);}
+  .lbl { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;}
+  .yes .lbl { color: var(--brasa); }
+  .no .lbl { color: var(--func-critico); }
+  .ttl { font-size: 14px; font-weight: 700; color: var(--carvao);}
+  .desc { font-size: 11px; color: var(--grafite); line-height: 1.5;}
+</style></head>
+<body>
+  <div class="head"><span class="eyebrow">Elevação · Bordas vs Sombras</span><span class="title">Hurtz separa por borda — não por sombra</span></div>
+  <div class="grid">
+    <div class="cell yes">
+      <span class="lbl">Sempre</span>
+      <span class="ttl">Card com borda Areia</span>
+      <span class="desc">Borda 1 px #E8E4DC. Cantos 4 px. Limpo, definido, premium.</span>
+    </div>
+    <div class="cell no">
+      <span class="lbl">Nunca</span>
+      <span class="ttl">Card com sombra</span>
+      <span class="desc">Sombra é efeito. Hurtz não usa efeitos. Sem brilho, gradientes ou drop shadow.</span>
+    </div>
+  </div>
+</body></html>

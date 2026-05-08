@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Buttons</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 18px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .group { margin-bottom: 16px;}
+  .group:last-child { margin-bottom: 0;}
+  .lbl { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--pedra); margin-bottom: 8px; display: block;}
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap;}
+  .btn { display: inline-flex; align-items: center; justify-content: center; padding: 12px 22px;
+    font-family: Inter, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: .02em;
+    border: none; border-radius: 4px; cursor: pointer;}
+  .primary { background: #C06018; color: #fff;}
+  .primary.hover { background: #974A12;}
+  .secondary { background: #181614; color: #F5F2EC;}
+  .ghost { background: transparent; color: #181614; border: 1.5px solid #181614;}
+  .small { padding: 8px 14px; font-size: 12px;}
+  .arrow { margin-left: 8px; font-weight: 700; }
+</style></head>
+<body>
+  <div class="head"><span class="eyebrow">Componente · Botões</span><span class="title">Brasa Viva · Carvão · Ghost</span></div>
+
+  <div class="group">
+    <span class="lbl">Primário · CTA</span>
+    <div class="row">
+      <button class="btn primary">Quero a proposta</button>
+      <button class="btn primary hover">Quero a proposta</button>
+      <button class="btn primary small">Falar agora</button>
+    </div>
+  </div>
+
+  <div class="group">
+    <span class="lbl">Secundário · Carvão</span>
+    <div class="row">
+      <button class="btn secondary">Ver método</button>
+      <button class="btn ghost">Ver método</button>
+      <button class="btn ghost small">Voltar</button>
+    </div>
+  </div>
+</body></html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Neutros</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px;}
+  .stop { display: flex; flex-direction: column; }
+  .swatch { height: 76px; border-radius: 2px; border: 1px solid transparent; }
+  .swatch.has-border { border-color: var(--areia); }
+  .meta { padding: 8px 2px 0; }
+  .lbl { font-size: 11px; font-weight: 700; color: var(--carvao); display:block;}
+  .hex { font-size: 10px; color: var(--pedra); letter-spacing: .04em; display:block; }
+  .role { font-size: 10px; color: var(--grafite); margin-top: 4px; display:block; line-height:1.3; }
+</style></head>
+<body>
+  <div class="head">
+    <span class="eyebrow">Paleta · Neutros</span>
+    <span class="title">5 tons que sustentam a hierarquia</span>
+  </div>
+  <div class="grid">
+    <div class="stop"><div class="swatch" style="background:#181614"></div><div class="meta"><span class="lbl">Carvão</span><span class="hex">#181614</span><span class="role">Texto principal · fundo escuro</span></div></div>
+    <div class="stop"><div class="swatch" style="background:#3D3A36"></div><div class="meta"><span class="lbl">Grafite</span><span class="hex">#3D3A36</span><span class="role">Texto secundário</span></div></div>
+    <div class="stop"><div class="swatch" style="background:#8C8880"></div><div class="meta"><span class="lbl">Pedra</span><span class="hex">#8C8880</span><span class="role">Texto terciário · labels</span></div></div>
+    <div class="stop"><div class="swatch has-border" style="background:#E8E4DC"></div><div class="meta"><span class="lbl">Areia</span><span class="hex">#E8E4DC</span><span class="role">Bordas · divisores</span></div></div>
+    <div class="stop"><div class="swatch has-border" style="background:#F5F2EC"></div><div class="meta"><span class="lbl">Off-white</span><span class="hex">#F5F2EC</span><span class="role">Fundo principal</span></div></div>
+  </div>
+</body></html>

@@ -1,0 +1,18 @@
+/* Shared styles for design system preview cards. 700×~auto. */
+@import url('../colors_and_type.css');
+
+html, body {
+  background: var(--offwhite);
+  width: 700px;
+  overflow: hidden;
+}
+body {
+  padding: 24px;
+}
+.card-root {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.row { display: flex; gap: 12px; align-items: stretch; }
+.col { display: flex; flex-direction: column; gap: 8px; }

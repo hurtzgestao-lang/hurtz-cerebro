@@ -1,0 +1,29 @@
+{
+  "_doc": "Aliases e classificações de grupos de WhatsApp para o cruzamento com a planilha de gestores. Edite à mão pra refinar matches. As chaves são nomes normalizados (lowercase, sem acentos, sem '| Hurtz...').",
+  "_planilha_gestores": "10rhAMSc2VZh-vk1XUZeewu3SLiNb9h97688BD97pB0U",
+  "aliases": {
+    "captacao de parceiros":         "captacao",
+    "mc promotora":                  "mc promotoria",
+    "traf pago b2 investimento":     "b2 representacoes",
+    "cota investimento":             "cota consorcios e investimentos",
+    "grupo ribeiro":                 "ribeiro consultoria",
+    "progresso negocios":            "progresso consorcios",
+    "gedez cred ltda":               "gedez representacao",
+    "conquista representacao":       "grupo conquista",
+    "instituto gabriel nascimento":  "dr gabriel nascimento"
+  },
+  "internos": [
+    "hurtz company operacional"
+  ],
+  "pausados": [
+    "confier representacoes",
+    "dm investimentos",
+    "topazio capital",
+    "imperium",
+    "confi bank",
+    "consbank"
+  ],
+  "manuais": {
+    "benetoli consorcios": { "cliente": "Benetoli Consórcios", "gestor": "Vinicius" }
+  }
+}

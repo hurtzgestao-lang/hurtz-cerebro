@@ -1,0 +1,37 @@
+# ===== Variáveis de ambiente (NUNCA commitar) =====
+.env
+.env.local
+.env.*
+!.env.example
+
+# ===== Dados sensíveis / pesados =====
+# Planilhas, exports, PDFs ficam locais — versionar só JSONs estruturais (grupos-gestores, contatos)
+dados/*.csv
+dados/*.xlsx
+dados/*.xls
+dados/*.txt
+dados/*.pdf
+dados/logs/
+
+# Mantém JSONs estruturais (mapeamentos, contatos)
+!dados/grupos-gestores.json
+!dados/contatos.json
+!dados/README.md
+
+# ===== Outputs binários =====
+*.png
+
+# ===== Workspace pessoal do Obsidian (cada gestor configura o seu) =====
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# ===== Arquivo gerado pelo /setup =====
+_configurar-mcps.md
+
+# ===== Sistema =====
+.DS_Store
+node_modules/
+
+# NOTA: pastas operacionais (clientes/, propostas/, briefings/, conteudo/, colaboradores/, base-conhecimento/)
+# SÃO versionadas — esse é o ponto do mono-repo Hurtz Cérebro. Repo é privado no GitHub.

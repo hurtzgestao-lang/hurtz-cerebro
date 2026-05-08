@@ -1,0 +1,8 @@
+# Arquivos append-only (concatena ambos os lados em conflito de merge)
+# Reduz conflitos quando múltiplos gestores editam ao mesmo tempo
+
+base-conhecimento/aprendizados/*.md merge=union
+clientes/*/historico.md merge=union
+clientes/*/aprendizados.md merge=union
+colaboradores/*/tarefas/concluidas.md merge=union
+colaboradores/*/memoria/*.md merge=union

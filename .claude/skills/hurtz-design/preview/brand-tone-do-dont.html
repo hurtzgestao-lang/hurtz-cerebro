@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Tone — certo vs errado</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 12px;}
+  .cell { padding: 14px 16px; background: #fff; border: 1px solid var(--areia);}
+  .yes { border-left: 3px solid var(--brasa);}
+  .no  { border-left: 3px solid var(--func-critico); opacity: .92;}
+  .tag { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 6px; display: block;}
+  .yes .tag { color: var(--brasa);}
+  .no .tag { color: var(--func-critico);}
+  .quote { font-size: 13px; line-height: 1.5; color: var(--carvao);}
+  .no .quote { color: var(--grafite); text-decoration: line-through; text-decoration-color: rgba(181,42,42,.5); text-decoration-thickness: 1px;}
+</style></head>
+<body>
+  <div class="head"><span class="eyebrow">Tom · Voz</span><span class="title">Número antes do adjetivo · sem enrolação</span></div>
+  <div class="row">
+    <div class="cell yes"><span class="tag">Certo</span><span class="quote">"50 leads qualificados por dia. Cada um com ficha completa."</span></div>
+    <div class="cell no"><span class="tag">Errado</span><span class="quote">"Oferecemos um serviço de geração de leads altamente qualificados..."</span></div>
+  </div>
+  <div class="row">
+    <div class="cell yes"><span class="tag">Certo</span><span class="quote">"Gabriela vende R$14M/mês com a gente. Recorde nacional."</span></div>
+    <div class="cell no"><span class="tag">Errado</span><span class="quote">"Temos cases de sucesso com resultados expressivos e diferenciados."</span></div>
+  </div>
+  <div class="row">
+    <div class="cell yes"><span class="tag">Certo</span><span class="quote">"Investimento: R$1.500/mês. Sem taxa escondida."</span></div>
+    <div class="cell no"><span class="tag">Errado</span><span class="quote">"Entre em contato para conhecer nossos planos e condições."</span></div>
+  </div>
+</body></html>

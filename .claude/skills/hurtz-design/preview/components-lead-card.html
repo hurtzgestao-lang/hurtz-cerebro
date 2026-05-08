@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Lead card</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px;}
+  .lead { background: #fff; border: 1px solid var(--areia); border-left: 3px solid var(--brasa); padding: 14px 16px;}
+  .lead.hot { border-left-color: #1A7A4A;}
+  .lead.cold { border-left-color: #3A6FBF;}
+  .top { display:flex; justify-content: space-between; align-items: center; margin-bottom: 8px;}
+  .name { font-size: 14px; font-weight: 700; color: var(--carvao);}
+  .badge { font-size: 9px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; padding: 3px 8px; border-radius: 999px;}
+  .b-hot { background: rgba(26,122,74,.12); color: #1A7A4A;}
+  .b-warm { background: rgba(192,96,24,.12); color: #C06018;}
+  .b-cold { background: rgba(58,111,191,.12); color: #3A6FBF;}
+  .meta { font-size: 11px; color: var(--grafite); line-height: 1.55;}
+  .meta strong { color: var(--carvao); font-weight: 700;}
+  .foot { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; font-size: 10px; color: var(--pedra); letter-spacing: .04em;}
+</style></head>
+<body>
+  <div class="head"><span class="eyebrow">Componente · Lead Card (CRM/WhatsApp)</span><span class="title">Borda esquerda = temperatura</span></div>
+  <div class="row">
+    <div class="lead hot">
+      <div class="top"><span class="name">Gabriela Soares</span><span class="badge b-hot">Quente</span></div>
+      <div class="meta"><strong>Cota:</strong> R$ 420k · imóvel<br><strong>Origem:</strong> Meta Ads · Criativo 04<br><strong>Status:</strong> aguardando contrato</div>
+      <div class="foot"><span>Belém · PA</span><span>há 12 min</span></div>
+    </div>
+    <div class="lead">
+      <div class="top"><span class="name">Marcos Vinícius</span><span class="badge b-warm">Morno</span></div>
+      <div class="meta"><strong>Cota:</strong> R$ 180k · veículo<br><strong>Origem:</strong> Meta Ads · Criativo 02<br><strong>Status:</strong> 2ª tentativa SDR</div>
+      <div class="foot"><span>Parauapebas · PA</span><span>há 1h</span></div>
+    </div>
+  </div>
+</body></html>

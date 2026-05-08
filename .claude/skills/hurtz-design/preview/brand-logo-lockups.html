@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Logo lockups</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 0; }
+  .lockup {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    border: 1px solid var(--areia);
+    overflow: hidden;
+  }
+  .lockup svg { width: 86%; max-height: 86%; height: auto; display: block; }
+  .light    { background: var(--offwhite); }
+  .dark     { background: var(--carvao);  border-color: var(--carvao); }
+  .brasa-bg { background: var(--brasa);   border-color: var(--brasa); }
+  .label {
+    font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--pedra); padding: 8px 12px;
+    border-top: 1px solid var(--areia);
+    background: #FFF;
+  }
+  .frame { display: flex; flex-direction: column; flex: 1; border: 1px solid var(--areia); }
+  .frame .lockup { border: none; }
+</style>
+</head><body>
+<!--
+  Símbolo Hurtz vetorizado a partir de uploads/logo-7f45e6e0.png
+  3 paralelogramas (lados verticais, topo/base inclinados ~ -0.48 dy/dx)
+  Espessura vertical: 37 · viewBox do símbolo: 0 0 304 240
+  Posicionamento: TOP-direita · MID-cobre toda largura · BOT-esquerda (ordem visual)
+-->
+
+<div class="row" style="gap:12px; padding:0;">
+
+  <!-- ==================== PRINCIPAL · FUNDO CLARO ==================== -->
+  <div class="frame">
+    <div class="lockup light">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 240" fill="none" aria-label="Hurtz logo">
+        <!-- símbolo carvão -->
+        <g fill="#181614">
+          <polygon points="55,79 215,2 215,39 55,116"></polygon>
+          <polygon points="2,182 271,53 271,89 2,218"></polygon>
+          <polygon points="121,201 301,115 301,152 121,237"></polygon>
+        </g>
+        <!-- divisor brasa -->
+        <rect x="380" y="20" width="6" height="200" fill="#C06018"></rect>
+        <!-- wordmark -->
+        <text x="450" y="178" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="700" font-size="170" letter-spacing="14" fill="#181614">HURTZ</text>
+      </svg>
+    </div>
+    <div class="label">Principal · fundo claro (offwhite #F5F2EC)</div>
+  </div>
+
+  <!-- ==================== INVERTIDA · FUNDO CARVÃO ==================== -->
+  <div class="frame">
+    <div class="lockup dark">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 240" fill="none" aria-label="Hurtz logo invertido">
+        <g fill="#F5F2EC">
+          <polygon points="55,79 215,2 215,39 55,116"></polygon>
+          <polygon points="2,182 271,53 271,89 2,218"></polygon>
+          <polygon points="121,201 301,115 301,152 121,237"></polygon>
+        </g>
+        <rect x="380" y="20" width="6" height="200" fill="#C06018"></rect>
+        <text x="450" y="178" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="700" font-size="170" letter-spacing="14" fill="#F5F2EC">HURTZ</text>
+      </svg>
+    </div>
+    <div class="label">Invertida · fundo carvão (#181614)</div>
+  </div>
+
+  <!-- ==================== MONO · FUNDO BRASA ==================== -->
+  <div class="frame">
+    <div class="lockup brasa-bg">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 240" fill="none" aria-label="Hurtz logo mono sobre brasa">
+        <g fill="#181614">
+          <polygon points="55,79 215,2 215,39 55,116"></polygon>
+          <polygon points="2,182 271,53 271,89 2,218"></polygon>
+          <polygon points="121,201 301,115 301,152 121,237"></polygon>
+        </g>
+        <rect x="380" y="20" width="6" height="200" fill="#181614" opacity="0.55"></rect>
+        <text x="450" y="178" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="700" font-size="170" letter-spacing="14" fill="#181614">HURTZ</text>
+      </svg>
+    </div>
+    <div class="label">Mono carvão · fundo brasa (#C06018)</div>
+  </div>
+
+</div>
+</body></html>

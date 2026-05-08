@@ -1,0 +1,401 @@
+{
+  "atualizado_em": "2026-05-08T14:00:00.000Z",
+  "fonte": {
+    "planilha": "10rhAMSc2VZh-vk1XUZeewu3SLiNb9h97688BD97pB0U",
+    "evolution": "Klebson"
+  },
+  "contagem": {
+    "matched": 44,
+    "internos": 1,
+    "sem_match": 11,
+    "sem_grupo": 6
+  },
+  "matched": [
+    {
+      "grupo": "Benetoli Consórcios | Hurtz Company",
+      "gid": "120363406680026707@g.us",
+      "cliente": "Benetoli Consórcios",
+      "gestor": "Vinicius",
+      "match": "manual"
+    },
+    {
+      "grupo": "Captação de parceiros | Hurtz Company",
+      "gid": "120363405253127996@g.us",
+      "cliente": "Captação",
+      "gestor": "Mateus",
+      "match": "alias"
+    },
+    {
+      "grupo": "Dr Paulo Moraes | Hurtz Company",
+      "gid": "120363405683281163@g.us",
+      "cliente": "Dr Paulo",
+      "gestor": "Mateus",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Credice | Hurtz Company",
+      "gid": "120363399185406871@g.us",
+      "cliente": "Crédice",
+      "gestor": "Mateus",
+      "match": "exato"
+    },
+    {
+      "grupo": "Certicon Consórcios | Leads",
+      "gid": "120363419059344206@g.us",
+      "cliente": "CERTICON",
+      "gestor": "Mateus",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Consult Cred | Hurtz Company",
+      "gid": "120363426813330565@g.us",
+      "cliente": "Consult Cred",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "LR Representação | Hurtz Company",
+      "gid": "120363419265929410@g.us",
+      "cliente": "LR REPRESENTAÇÃO",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Líder Imperial | Hurtz Company",
+      "gid": "120363426376574308@g.us",
+      "cliente": "Líder Imperial",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Grupo Nortecon | Hurtz Company",
+      "gid": "120363406142285138@g.us",
+      "cliente": "Nortecon",
+      "gestor": "Vinicius",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Dominar Empreendimentos | Hurtz Company",
+      "gid": "120363408934698413@g.us",
+      "cliente": "Dominar Empreendimentos",
+      "gestor": "Kerlys",
+      "match": "exato"
+    },
+    {
+      "grupo": "BV Corretagem | Hurtz Company",
+      "gid": "120363420178471699@g.us",
+      "cliente": "BV CORRETAGEM",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Fowler Prado | Hurtz Company",
+      "gid": "120363426183552108@g.us",
+      "cliente": "Fowler Prado",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Ideal Cred Financeira | Hurtz Company",
+      "gid": "120363405970591498@g.us",
+      "cliente": "Ideal Cred Financeira",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Instituto Gabriel Nascimento | Hurtz Company",
+      "gid": "120363422853493105@g.us",
+      "cliente": "Dr Gabriel Nascimento",
+      "gestor": "Mateus",
+      "match": "alias"
+    },
+    {
+      "grupo": "Promove RN | Hurtz Company",
+      "gid": "120363406878766954@g.us",
+      "cliente": "Promove RN",
+      "gestor": "Mateus",
+      "match": "exato"
+    },
+    {
+      "grupo": "KR Empreedimentos | Hurtz Company",
+      "gid": "120363405416295846@g.us",
+      "cliente": "KR Empreedimentos",
+      "gestor": "Mateus",
+      "match": "exato"
+    },
+    {
+      "grupo": "LT Representações | Hurtz Company",
+      "gid": "120363406768909054@g.us",
+      "cliente": "LT Representações",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Dr Wanderson Nunes | Hurtz Company",
+      "gid": "120363425387561723@g.us",
+      "cliente": "Dr Wanderson Nunes",
+      "gestor": "Kerlys",
+      "match": "exato"
+    },
+    {
+      "grupo": "Master Peixoto | Hurtz Company",
+      "gid": "120363407214568744@g.us",
+      "cliente": "Master",
+      "gestor": "Vinicius",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Dra Sarah Arroyo | Hurtz Company",
+      "gid": "120363407552333681@g.us",
+      "cliente": "Dra Sarah Arroyo",
+      "gestor": "Mateus",
+      "match": "exato"
+    },
+    {
+      "grupo": "Confier Representações | Hurtz Company",
+      "gid": "120363425589405771@g.us",
+      "cliente": "Confier Representações",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Castro Agenciamento | Hurtz Company",
+      "gid": "120363423040434668@g.us",
+      "cliente": "Castro Agenciamento",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Mc promotora | Hurtz Company",
+      "gid": "120363423668005458@g.us",
+      "cliente": "MC promotoria",
+      "gestor": "Kerlys",
+      "match": "alias"
+    },
+    {
+      "grupo": "Império Negócios | Hurtz Company",
+      "gid": "120363407734018664@g.us",
+      "cliente": "Império Negócios",
+      "gestor": "Kerlys",
+      "match": "exato"
+    },
+    {
+      "grupo": "RODLIDER | Hurtz Company",
+      "gid": "120363403813743529@g.us",
+      "cliente": "RODLÍDER",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Traf. Pago - B2 Investimento | Hurtz Company",
+      "gid": "120363420709766895@g.us",
+      "cliente": "B2 REPRESENTAÇOES",
+      "gestor": "Mateus",
+      "match": "alias"
+    },
+    {
+      "grupo": "Investbens soluções financeiras | Hurtz Company",
+      "gid": "120363422881877625@g.us",
+      "cliente": "InvestBens",
+      "gestor": "Mateus",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Concred Financeira | Hurtz Company",
+      "gid": "120363404798978001@g.us",
+      "cliente": "Concred",
+      "gestor": "Vinicius",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Malta Investimentos | Hurtz Company",
+      "gid": "120363404391045554@g.us",
+      "cliente": "Malta Investimento",
+      "gestor": "Mateus",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Dr. Alan Andrade | Hurtz Company",
+      "gid": "120363416946916520@g.us",
+      "cliente": "Dr Alan Andrade",
+      "gestor": "Kerlys",
+      "match": "exato"
+    },
+    {
+      "grupo": "Capital Invest | Hurtz Company",
+      "gid": "120363404309566497@g.us",
+      "cliente": "CAPITAL INVEST",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "Ramos soluções financeiras Ltda | Hurtz Company",
+      "gid": "120363423766110734@g.us",
+      "cliente": "RAMOS",
+      "gestor": "Kerlys",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Comercial Dr Marcio Mittmann | Hurtz Company",
+      "gid": "120363424943791690@g.us",
+      "cliente": "Dr Marcio Mittmann",
+      "gestor": "Vinicius",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Fincred Soluções Ltda | Hurtz Company",
+      "gid": "120363404769782341@g.us",
+      "cliente": "FINCRED",
+      "gestor": "Kerlys",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Topázio Representações | Hurtz Co",
+      "gid": "120363420764003869@g.us",
+      "cliente": "TOPAZIO REPRESENTAÇÕES",
+      "gestor": "Mateus",
+      "match": "exato"
+    },
+    {
+      "grupo": "Cota investimento | Hurtz Company",
+      "gid": "120363425587283034@g.us",
+      "cliente": "Cota Consórcios e Investimentos",
+      "gestor": "Kerlys",
+      "match": "alias"
+    },
+    {
+      "grupo": "Grupo Ribeiro | Hurtz Company",
+      "gid": "120363229098386941@g.us",
+      "cliente": "RIBEIRO CONSULTORIA",
+      "gestor": "Mateus",
+      "match": "alias"
+    },
+    {
+      "grupo": "FALCON Negócios | Hurtz Company",
+      "gid": "120363422906682010@g.us",
+      "cliente": "FALCON",
+      "gestor": "Kerlys",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Abba Representação | Hurtz Company",
+      "gid": "120363323644405255@g.us",
+      "cliente": "ABBA REPRESENTACAO",
+      "gestor": "Vinicius",
+      "match": "exato"
+    },
+    {
+      "grupo": "All Car Consórcios | Hurtz Company",
+      "gid": "120363425176842451@g.us",
+      "cliente": "All Car",
+      "gestor": "Kerlys",
+      "match": "parcial"
+    },
+    {
+      "grupo": "Am Representação | Hurtz Company",
+      "gid": "120363420054124364@g.us",
+      "cliente": "AM REPRESENTACAO",
+      "gestor": "Kerlys",
+      "match": "exato"
+    },
+    {
+      "grupo": "Progresso Negócios | Hurtz Company",
+      "gid": "120363407581475676@g.us",
+      "cliente": "Progresso Consórcios",
+      "gestor": "Mateus",
+      "match": "alias"
+    },
+    {
+      "grupo": "GEDEZ CRED LTDA | Hurtz Co",
+      "gid": "120363420743750215@g.us",
+      "cliente": "GEDEZ REPRESENTAÇÃO",
+      "gestor": "Kerlys",
+      "match": "alias"
+    },
+    {
+      "grupo": "Conquista Representação | Hurtz Company",
+      "gid": "120363346570606681@g.us",
+      "cliente": "GRUPO CONQUISTA",
+      "gestor": "Kerlys",
+      "match": "alias"
+    }
+  ],
+  "internos": [
+    {
+      "grupo": "Hurtz Company | Operacional",
+      "gid": "120363172372705593@g.us"
+    }
+  ],
+  "sem_match": [
+    {
+      "grupo": "Moderna Imobiliária | Tráfego",
+      "gid": "120363402587928430@g.us"
+    },
+    {
+      "grupo": "Maggi x Hurtz",
+      "gid": "120363409537787543@g.us"
+    },
+    {
+      "grupo": "#H3 | Odonto Medic Eldorado",
+      "gid": "120363181232678630@g.us"
+    },
+    {
+      "grupo": "Mv Soluções Financeiras | Hurtz Company",
+      "gid": "120363426316740851@g.us"
+    },
+    {
+      "grupo": "Projeto Lotérica Pbs | Hurtz Company",
+      "gid": "120363409748910891@g.us"
+    },
+    {
+      "grupo": "Real Cred | Hurtz Company",
+      "gid": "120363407960782563@g.us"
+    },
+    {
+      "grupo": "Clínica Renova | Hurtz Company",
+      "gid": "120363423453287559@g.us"
+    },
+    {
+      "grupo": "#H3 | Odonto Medic Curionópolis",
+      "gid": "120363288749696375@g.us"
+    },
+    {
+      "grupo": "VG Representações | Hurtz Company",
+      "gid": "120363426820916501@g.us"
+    },
+    {
+      "grupo": "Tráfego e MKT Dermoplástica",
+      "gid": "120363425578527187@g.us"
+    },
+    {
+      "grupo": "#Instituto Odonto Medic | Vendas",
+      "gid": "120363206029535814@g.us"
+    }
+  ],
+  "sem_grupo": [
+    {
+      "cliente": "Raz Financeira",
+      "gestor": "Kerlys"
+    },
+    {
+      "cliente": "Instituto Dr Sidney",
+      "gestor": "Vinicius"
+    },
+    {
+      "cliente": "Clínica Curionopolis",
+      "gestor": "Vinicius"
+    },
+    {
+      "cliente": "DM Investimentos",
+      "gestor": "Kerlys"
+    },
+    {
+      "cliente": "Topázio Capital",
+      "gestor": "Mateus"
+    },
+    {
+      "cliente": "Imperium",
+      "gestor": "Mateus"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Backgrounds</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 0;}
+  .row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;}
+  .cell { height: 180px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between;}
+  .a { background: #F5F2EC;}
+  .b { background: #181614;}
+  .c { background: #C06018;}
+  .d { background: #F9EDE3;}
+  .tag { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;}
+  .name { font-size: 18px; font-weight: 700; line-height: 1.1;}
+  .a .tag, .a .name { color: #181614;}
+  .a .tag { color: #8C8880;}
+  .b .tag, .b .name { color: #F5F2EC;}
+  .b .tag { color: rgba(245,242,236,.55);}
+  .c .tag, .c .name { color: #fff;}
+  .c .tag { color: rgba(255,255,255,.7);}
+  .d .tag, .d .name { color: #181614;}
+  .d .tag { color: #974A12;}
+  .meta { font-size: 10px; letter-spacing: .04em;}
+  .a .meta, .d .meta { color: #8C8880;}
+  .b .meta { color: rgba(245,242,236,.5);}
+  .c .meta { color: rgba(255,255,255,.7);}
+</style></head>
+<body>
+<div class="row">
+  <div class="cell a">
+    <span class="tag">Padrão · 80%</span>
+    <div><div class="name">Off-white</div><div class="meta">#F5F2EC · decks, propostas, web</div></div>
+  </div>
+  <div class="cell b">
+    <span class="tag">Inversa · 15%</span>
+    <div><div class="name">Carvão</div><div class="meta">#181614 · ads noturnos, capas</div></div>
+  </div>
+  <div class="cell c">
+    <span class="tag">Acento · 5%</span>
+    <div><div class="name">Brasa Viva</div><div class="meta">#C06018 · destaques pontuais</div></div>
+  </div>
+  <div class="cell d">
+    <span class="tag">Tintado · raro</span>
+    <div><div class="name">Brasa Mínima</div><div class="meta">#F9EDE3 · seções de respiro</div></div>
+  </div>
+</div>
+</body></html>

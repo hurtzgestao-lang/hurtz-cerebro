@@ -1,0 +1,41 @@
+{
+  "contatos": [
+    {
+      "nome": "Klebson",
+      "cargo": "Dono",
+      "slug": "klebson",
+      "numero": "5594988082290"
+    },
+    {
+      "nome": "Marcos",
+      "cargo": "CEO",
+      "slug": "marcos",
+      "numero": "5517996178576"
+    },
+    {
+      "nome": "Matheus",
+      "cargo": "Gestor de Operações",
+      "slug": "matheus",
+      "aliases": ["Mateus"],
+      "numero": "5594992161227"
+    },
+    {
+      "nome": "Vinicius",
+      "cargo": "Gestor de Tráfego",
+      "slug": "vinicius",
+      "numero": ""
+    },
+    {
+      "nome": "Kerlys",
+      "cargo": "Gestor de Tráfego",
+      "slug": "kerlys",
+      "numero": ""
+    },
+    {
+      "nome": "Suyane",
+      "cargo": "SDR",
+      "slug": "suyane",
+      "numero": "5516993413732"
+    }
+  ]
+}

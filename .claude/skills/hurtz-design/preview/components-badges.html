@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Badges</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px;}
+  .badge { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: 999px;
+    font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;}
+  .dot { width: 6px; height: 6px; border-radius: 50%;}
+  .quente   { background: rgba(26,122,74,.12);  color: #1A7A4A;} .quente .dot   { background: #1A7A4A;}
+  .morno    { background: rgba(192,96,24,.12);  color: #C06018;} .morno .dot    { background: #C06018;}
+  .frio     { background: rgba(58,111,191,.12); color: #3A6FBF;} .frio .dot     { background: #3A6FBF;}
+  .perdido  { background: rgba(181,42,42,.12);  color: #B52A2A;} .perdido .dot  { background: #B52A2A;}
+  .neutro   { background: #E8E4DC; color: #181614;}
+  .square { background: #C06018; color: #fff; padding: 4px 10px; border-radius: 2px; font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;}
+  .lbl { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--pedra); margin-bottom: 8px; display:block;}
+</style></head>
+<body>
+  <div class="head"><span class="eyebrow">Componente · Badges</span><span class="title">Status do CRM + tags neutras</span></div>
+
+  <span class="lbl">Temperatura do lead</span>
+  <div class="row">
+    <span class="badge quente"><span class="dot"></span>Lead quente</span>
+    <span class="badge morno"><span class="dot"></span>Lead morno</span>
+    <span class="badge frio"><span class="dot"></span>Lead frio</span>
+    <span class="badge perdido"><span class="dot"></span>Perdido</span>
+  </div>
+
+  <span class="lbl">Marcadores</span>
+  <div class="row">
+    <span class="badge neutro">Qualificado</span>
+    <span class="badge neutro">Pronto p/ fechar</span>
+    <span class="square">Hurtz · 2026</span>
+  </div>
+</body></html>

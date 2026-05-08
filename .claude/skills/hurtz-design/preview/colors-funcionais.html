@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Cores funcionais</title>
+<link rel="stylesheet" href="_card.css">
+<style>
+  body { padding: 24px;}
+  .head { display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 16px;}
+  .eyebrow { font-size: 10px; font-weight: 700; letter-spacing:.14em; text-transform: uppercase; color: var(--pedra);}
+  .title { font-size: 13px; font-weight: 700; color: var(--carvao);}
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;}
+  .stop { display: flex; flex-direction: column; }
+  .swatch { height: 70px; border-radius: 2px; display:flex; align-items:flex-end; padding: 10px;}
+  .swatch .pill { font-size: 10px; font-weight: 700; color: #fff; letter-spacing: .12em; text-transform: uppercase;}
+  .meta { padding: 8px 2px 0; }
+  .lbl { font-size: 11px; font-weight: 700; color: var(--carvao); display:block;}
+  .hex { font-size: 10px; color: var(--pedra); letter-spacing: .04em; display:block; }
+  .role { font-size: 10px; color: var(--grafite); margin-top: 4px; display:block;}
+</style></head>
+<body>
+  <div class="head">
+    <span class="eyebrow">Cores · Funcionais</span>
+    <span class="title">Status do CRM · temperatura do lead</span>
+  </div>
+  <div class="grid">
+    <div class="stop"><div class="swatch" style="background:#1A7A4A"><span class="pill">Quente</span></div><div class="meta"><span class="lbl">Resultado</span><span class="hex">#1A7A4A</span><span class="role">Sucesso · OK</span></div></div>
+    <div class="stop"><div class="swatch" style="background:#C06018"><span class="pill">Morno</span></div><div class="meta"><span class="lbl">Atenção</span><span class="hex">#C06018</span><span class="role">Alerta · em aberto</span></div></div>
+    <div class="stop"><div class="swatch" style="background:#3A6FBF"><span class="pill">Frio</span></div><div class="meta"><span class="lbl">Informação</span><span class="hex">#3A6FBF</span><span class="role">Info · novo lead</span></div></div>
+    <div class="stop"><div class="swatch" style="background:#B52A2A"><span class="pill">Perdido</span></div><div class="meta"><span class="lbl">Crítico</span><span class="hex">#B52A2A</span><span class="role">Erro · perdido</span></div></div>
+  </div>
+</body></html>
