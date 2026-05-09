@@ -73,6 +73,8 @@ hurtz-cerebro/
 ### Meta Ads
 - `meta-leads` — extração de leads
 - `meta-ads-insights` — métricas de tráfego
+- `gerar-criativo` — gera copy + imagem pra anúncio baseado no briefing do cliente (`/gerar-criativo`)
+- `lancar-campanha` — orquestrador end-to-end: briefing → criativo → sobe no Meta (PAUSADO) → tarefa de revisão → notifica cliente (`/lancar-campanha`). Usa MCP oficial da Meta (`mcp.facebook.com/ads`).
 
 ### Google
 - `google-calendar`, `google-sheets`, `google-docs`, `google-drive`
@@ -96,6 +98,8 @@ hurtz-cerebro/
 | `/relatorio-equipe` | Visão executiva da carga da equipe |
 | `/mover-cliente` | Move cliente entre gestores |
 | `/onboarding-gestor` | Cria workspace pra novo gestor |
+| `/gerar-criativo` | Gera headlines + body + CTA + imagem pra anúncio do cliente |
+| `/lancar-campanha` | Lança campanha completa de Meta Ads (briefing → criativo → sobe pausado → revisão → cliente) |
 | `/syncar` | Força commit + push (também acontece automaticamente no Stop) |
 | `/atualizar` | Sincroniza memórias com estado real do projeto |
 
